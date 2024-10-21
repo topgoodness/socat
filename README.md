@@ -9,3 +9,8 @@ Socat一键安装脚本
     wget https://raw.githubusercontent.com/topgoodness/socat/refs/heads/master/socat.sh && bash socat.sh
 
 按要求输入本地服务器端口，要转发的目标端口和服务器IP即可！
+
+#如果你要用本地服务器的1000端口转发IP为1.1.1.1服务器的6666端口，那就依次填入指定参数。
+请输入本地端口:1000
+请输入远程端口:6666
+请输入远程IP:1.1.1.1（可以使用域名）
